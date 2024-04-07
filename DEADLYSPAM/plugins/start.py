@@ -48,16 +48,16 @@ async def start(e):
     if e.chat_id is e.sender_id:
         name = e.sender.first_name
         user_id = e.sender_id
-        mention = f"[{name}](tg://user?id={user_id})"
-        myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
+        mention = f"[{NAME}](tg://user?id={user_id})"
+        myOwner = f"[{NOBITA}](tg://user?id={6316619883})"
         creator = f"[『NOBITA』| ͢ ̶ͥ ̶ ̶ͣ ͓ ̶ͫ NOBI𓄂⃝🔱 𝗕 ❤️ 𝗪](tg://user?id={6316619883})"
         DEADLY_ON = f"""
 ʜᴇʏ {mention},
-ᴛʜɪs ɪs ᴋɪɴɢ x ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+ᴛʜɪs ɪs NOBITA ʙʀᴀɴᴅᴇᴅ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {nobi}!
 
-ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
+ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {NOBITA}
 
-ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ:- {creator}
+ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ:- {kairv}
 
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss sᴜᴘᴘᴏʀᴛ ,ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʀᴇᴘᴏ!
     """
