@@ -10,20 +10,20 @@ ALIVE_IMG = config.ALIVE_PIC
 if config.ALIVE_PIC:
     DEADLY_IMG = ALIVE_IMG
 else:
-    DEADLY_IMG = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
+    DEADLY_IMG = "https://telegra.ph/file/0d57c17b3ccfd304a935d.jpg"
 
 OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
     OWNER_NAME = OWNER_INFO
 else:
-    OWNER_NAME = "KING X TEAM BRANDED"
+    OWNER_NAME = "NOBITA"
 
 OWNER_ID = config.OWNER_ID
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/BRANDED_KHUSHI"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/BRANDED_WORLD")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/NOBITA_DEVLOPE_THINGS"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/MONSTER_X_SUDO")
         ],
         [
         Button.url("• Rᴇᴘᴏ •", "https://t.me/B_R_A_N_D_E_D_K_I_N_G")
@@ -50,7 +50,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[『𝗕𝗥𝗔𝗡𝗗𝗘𝗗』| ͢ ̶ͥ ̶ ̶ͣ ͓ ̶ͫ 𝗞𝗜𝗡𝗚𓄂⃝🔱 𝗕 ❤️ 𝗪](tg://user?id={6258877205})"
+        creator = f"[『NOBITA』| ͢ ̶ͥ ̶ ̶ͣ ͓ ̶ͫ NOBI𓄂⃝🔱 𝗕 ❤️ 𝗪](tg://user?id={6316619883})"
         DEADLY_ON = f"""
 ʜᴇʏ {mention},
 ᴛʜɪs ɪs ᴋɪɴɢ x ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
